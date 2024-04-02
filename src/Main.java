@@ -75,7 +75,7 @@ public class Main {
         return words[random.nextInt(words.length)];
     }
     public static String generateHiddenWord(String words) {
-        // metoda vrací počet podtržítek kolik je písmen
+        // metody vrací počet podtržítek kolik je písmen
         return "_".repeat(words.length());
     }
 }
